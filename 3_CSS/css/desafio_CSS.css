@@ -1,0 +1,10 @@
+h1{
+    color: red;
+}
+
+h4{
+    color: rebeccapurple;
+    font-size: 55px; 
+    border: 2px;
+    border-style: dashed; 
+}
