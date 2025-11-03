@@ -378,3 +378,149 @@ font-weight: 600;
 .bolder{
     font-weight: 800;
 }
+
+/* Font size */
+
+.small{
+    font-size: 8px;
+}
+
+.big{
+font-size: 40px;
+}
+
+/* Display */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #00eaff;
+    display: block;
+    margin: 10px;
+}
+
+.invisible{
+    display: none;
+}
+/* Position static */
+
+.static{
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Position relative */
+
+.relative{
+     position: relative;
+    background-color: #FF2056;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* Position absolute  */
+
+.absolute{
+      position: absolute;
+    background-color: #A3B3FF;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Absolute e relative */
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #FDC745;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #FF637E;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Position fixed  */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #74D4FF;
+    background-color: #2AA63E;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Position sticky */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #FFD230;
+    background-color: #2AA63E;
+    position: sticky;
+    top: 10px;
+}
+
+/* Z index */
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #262626;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #155DFC;
+    z-index: 2;
+}
+
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #FFC9C9;
+    z-index: 1;
+}
